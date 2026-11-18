@@ -1,0 +1,98 @@
+# Disagreements (coder 1 = database, coder 2 = blind re-coding); 40 works
+
+- **zhang2024groundhog** A_query: db=['implicit instruction', 'referring expression', 'visual prompt'] | recode=['implicit instruction', 'phrase/class name', 'referring expression'] | evidence: RES expressions, Flickr30k/PNG phrases, ReasonSeg/RIO reasoning queries, TextVQA-X questions
+- **zhang2024omgllava** A_query: db=['implicit instruction', 'referring expression', 'visual prompt'] | recode=['referring expression'] | evidence: 'Please segment {EXPRESSION}' on refCOCO/+/g; GCG phrases
+- **wang2025segllm** A_query: db=['composite', 'implicit instruction', 'referring expression'] | recode=['implicit instruction', 'referring expression'] | evidence: multi-round relational queries referencing prior masks; reasoning/attribute queries
+- **yuan2026sa2va** A_query: db=['referring expression', 'visual prompt'] | recode=['implicit instruction', 'referring expression'] | evidence: RefCOCO/Ref-YTVOS/MeViS expressions; ReVOS reasoning queries; long Ref-SAV expressions
+- **yang2022tubedetr** A_query: db=['referring expression'] | recode=['implicit instruction', 'referring expression'] | evidence: VidSTG declarative and interrogative sentences ('What does the adult ride?'); HC-STVG
+- **jin2022embracing** A_query: db=['referring expression'] | recode=['implicit instruction', 'referring expression'] | evidence: VidSTG declarative and interrogative sentences; HC-STVG descriptions
+- **du2025crab** A_query: db=['implicit instruction', 'non-speech sound', 'referring expression', 'speech'] | recode=['composite', 'non-speech sound', 'referring expression'] | evidence: audio for AVS/ARIG; Ref-AVS expression plus audio jointly
+- **tian2018ave** A_query: db=['non-speech sound', 'visual exemplar'] | recode=['non-speech sound'] | evidence: A2V: l-second audio segment queries its synchronized visual segment
+- **zhang2025enhancing** A_query: db=['implicit instruction'] | recode=['implicit instruction', 'referring expression'] | evidence: natural-language GUI instructions mapped to UI elements (ScreenSpot, UI-I2E, etc.)
+- **lu2026segcompass** A_query: db=['implicit instruction'] | recode=['implicit instruction', 'referring expression'] | evidence: RefCOCO/+/g, gRefCOCO expressions; ReasonSeg reasoning instructions
+- **lu2025geal** A_query: db=['implicit instruction', 'visual exemplar'] | recode=['implicit instruction'] | evidence: affordance questions, e.g. 'at which point is your finger most likely to carry the bag?'
+- **ding2026grex** B_target: db=['image'] | recode=['image', 'silent video'] | evidence: gRefCOCO images; ReLA also evaluated on MeViS and Ref-YouTube-VOS
+- **liu2023polyformer** B_target: db=['image'] | recode=['image', 'silent video'] | evidence: images; zero-shot transfer to Ref-DAVIS17 video frames
+- **zhang2024omgllava** B_target: db=['image', 'silent video'] | recode=['image'] | evidence: single images for grounding evaluations
+- **bai2024one** B_target: db=['silent video'] | recode=['image', 'silent video'] | evidence: videos (Ref-YTVOS, DAVIS, MeViS, ReasonVOS) and images (ReasonSeg, refCOCO)
+- **mo2022ezvsl** B_target: db=['image'] | recode=['audio-visual video'] | evidence: video frame paired with its audio (Flickr SoundNet, VGG-Sound)
+- **sun2023learning** B_target: db=['image'] | recode=['audio-visual video'] | evidence: video frames with audio (Flickr SoundNet, VGG-Sound, AVSBench)
+- **arandjelovic2018objects** B_target: db=['image'] | recode=['audio-visual video'] | evidence: video frame with surrounding audio (AudioSet-Instruments)
+- **tian2018ave** B_target: db=['audio-visual video'] | recode=['audio-only', 'audio-visual video'] | evidence: AVE videos with audio; V2A localises within the audio track
+- **zhang2026seqalign3dvg** B_target: db=['image'] | recode=['image', 'silent video'] | evidence: single RGB frame or ordered 15-frame RGB sequence with camera poses, no depth
+- **zhang2024groundhog** C_referent: db=['object instance', 'part', 'set (0..k)', 'stuff/region'] | recode=['object instance', 'set (0..k)', 'stuff/region'] | evidence: things and stuff in PNG; gRefCOCO multi/null instance queries
+- **yuan2024osprey** C_referent: db=['object instance', 'part'] | recode=['object instance', 'part', 'stuff/region'] | evidence: object-level LVIS and part-level PACO region classification
+- **wang2025segllm** C_referent: db=['object instance', 'part', 'relation/interaction'] | recode=['object instance', 'part'] | evidence: MR-PACO hierarchical part segmentation evaluated per round
+- **yuan2026sa2va** C_referent: db=['object instance'] | recode=['event/action', 'object instance'] | evidence: objects; MeViS motion-defined referents
+- **yang2022tubedetr** C_referent: db=['object instance'] | recode=['event/action', 'object instance'] | evidence: object tube restricted to start/end of described activity
+- **jin2022embracing** C_referent: db=['object instance'] | recode=['event/action', 'object instance'] | evidence: object tube within start/end of described action
+- **bai2024one** C_referent: db=['object instance'] | recode=['event/action', 'object instance'] | evidence: objects; MeViS motion-guided referents
+- **du2025crab** C_referent: db=['event/action', 'object instance', 'sound source'] | recode=['event/action', 'object instance', 'set (0..k)', 'sound source'] | evidence: sounding objects, audio-visual events with time ranges, null/multi-source cases
+- **sun2023learning** C_referent: db=['sound source'] | recode=['set (0..k)', 'sound source'] | evidence: sound sources; AVSBench MS3 multiple sources
+- **zhang2026medgrounder** C_referent: db=['set (0..k)'] | recode=['set (0..k)', 'stuff/region'] | evidence: zero, one or multiple finding regions per phrase
+- **kerr2023lerf** C_referent: db=['object instance', 'part', 'stuff/region'] | recode=['object instance', 'set (0..k)'] | evidence: objects; existence experiment includes queries absent from scene
+- **lu2026segcompass** C_referent: db=['object instance'] | recode=['object instance', 'set (0..k)'] | evidence: gRefCOCO multi-object expressions; up to 6 slots
+- **ding2026grex** D_output: db=['2d box', 'grounded text', 'mask'] | recode=['2d box', 'mask'] | evidence: GRES masks (gIoU/cIoU) and GREC boxes (Pr@F1)
+- **zhang2024groundhog** D_output: db=['grounded text', 'mask'] | recode=['2d box', 'grounded text', 'mask'] | evidence: masks (cIoU/mIoU), boxes for Flickr30K R@1, grounded captions F1_all
+- **yuan2024osprey** D_output: db=['grounded text'] | recode=[] | evidence: outputs category labels and descriptions only; GT masks are inputs
+- **yuan2026sa2va** D_output: db=['grounded text', 'mask', 'tube/track'] | recode=['grounded text', 'mask'] | evidence: cIoU masks, J&F video masks, GCG grounded captions
+- **wang2022negative** D_output: db=['temporal interval'] | recode=['temporal interval', 'tube/track'] | evidence: R@n IoU@m moments; HC-STVG tubes via vIoU
+- **yang2022tubedetr** D_output: db=['tube/track'] | recode=['temporal interval', 'tube/track'] | evidence: m_vIoU, vIoU@R for tubes; m_tIoU for temporal boundaries
+- **jin2022embracing** D_output: db=['tube/track'] | recode=['temporal interval', 'tube/track'] | evidence: m_vIoU/vIoU@R tubes and m_tIoU boundaries
+- **du2025crab** D_output: db=['grounded text', 'mask', 'point/heatmap', 'temporal interval'] | recode=['2d box', 'grounded text', 'mask', 'temporal interval'] | evidence: AVS/Ref-AVS masks, ARIG boxes as text coords, AVE/AVVP time ranges
+- **sun2023learning** D_output: db=['point/heatmap'] | recode=['mask', 'point/heatmap'] | evidence: localisation maps (CIoU/AUC); zero-shot AVSBench masks (mIoU/F)
+- **deruyttere2021giving** D_output: db=['2d box', 'grounded text'] | recode=['2d box'] | evidence: IoU>0.5 of selected box
+- **lu2026segcompass** D_output: db=['mask', 'point/heatmap'] | recode=['mask'] | evidence: masks scored by cIoU/gIoU
+- **ding2026grex** E_paradigm: db=E3 | recode=dataset | evidence: main contribution gRefCOCO benchmark (GRES/GREC/GREG) plus ReLA baseline
+- **wang2024unires** E_paradigm: db=E3 | recode=dataset | evidence: contributions: MRES task, RefCOCOm benchmark, MRES-32M dataset; UniRES simple baseline
+- **ding2021vlt** E_paradigm: db=E3 | recode=E2 | evidence: language-generated decoder queries, no bipartite matching; conv mask decoder outputs one mask
+- **kamath2021mdetr** E_paradigm: db=E3 | recode=E4 | evidence: DETR-based modulated detector pre-trained on 1.3M aligned text-box pairs for transfer
+- **zhang2024groundhog** E_paradigm: db=E1 | recode=E7 | evidence: <GRD> token embeddings score and merge Mask2Former+ entity proposals
+- **yuan2024osprey** E_paradigm: db=E6 | recode=n/a (fails admission) | evidence: MLLM with mask-aware visual extractor; emits text, no coordinates or mask tokens
+- **zhu2025popen** E_paradigm: db=E7 | recode=E8 | evidence: PixelLM-based LVLM fine-tuned with DPO-style preference optimisation ranked by mask quality
+- **yang2022tubedetr** E_paradigm: db=E3 | recode=E2 | evidence: per-frame time queries, no bipartite matching; MLP heads regress boxes and start/end
+- **jin2022embracing** E_paradigm: db=E3 | recode=E2 | evidence: one-stage DETR-like decoder with multimodal template queries; no bipartite matching
+- **gao2024avsegformer** E_paradigm: db=E3 | recode=E2 | evidence: audio-conditioned queries fused with mask features; Dice loss, no bipartite matching
+- **tian2018ave** E_paradigm: db=E2 | recode=dataset | evidence: introduces AVE dataset and three tasks with baselines (attention, DMRN, AVDLN)
+- **kerr2023lerf** E_paradigm: db=E4 | recode=E9 | evidence: per-scene distillation of frozen CLIP/DINO into NeRF, relevancy vs canonical phrases
+- **zhang2026seqalign3dvg** E_paradigm: db=E2 | recode=dataset | evidence: SeqAlign3DVG benchmark plus voxel framework (ROVM, PLVF) as baseline
+- **lu2026segcompass** E_paradigm: db=E7 | recode=E8 | evidence: MLLM CoT trained with GRPO; SAE concepts to slot heatmaps to mask decoder
+- **zhang2024groundhog** F_supervision: db=['full'] | recode=['full', 'weak'] | evidence: M3G2 from annotated datasets; box-only data via projection loss for masks
+- **zhu2025popen** F_supervision: db=['full'] | recode=['full', 'rl verifiable reward', 'synthetic/llm-generated'] | evidence: SFT on masks; ChatGPT-corrected responses; preferences ranked by IoU/boundary IoU
+- **mo2022ezvsl** F_supervision: db=['weak'] | recode=['self-supervised correspondence'] | evidence: multiple-instance contrastive learning on audio-visual pairs, no localisation labels
+- **tian2018ave** F_supervision: db=['full', 'weak'] | recode=['full', 'self-supervised correspondence', 'weak'] | evidence: segment labels (supervised), video-level tags (weak), sync pairs for AVDLN
+- **zhang2026medgrounder** F_supervision: db=['full', 'weak'] | recode=['full', 'synthetic/llm-generated', 'weak'] | evidence: anatomical-region weak boxes, LLaMA-3 cleaned; expert boxes fine-tune
+- **kerr2023lerf** F_supervision: db=['self-supervised correspondence', 'zero-shot/training-free'] | recode=['zero-shot/training-free'] | evidence: no grounding labels; CLIP features distilled per scene
+- **liu2024rotated** F_supervision: db=['full'] | recode=['full', 'synthetic/llm-generated'] | evidence: masks from SAM prompted by RSVGD boxes, manually refined
+- **huang2022multiview** F_supervision: db=['full'] | recode=['full', 'synthetic/llm-generated'] | evidence: human utterances plus template-generated Sr3D/Sr3D+ for training
+- **rohrbach2018chair** F_supervision: db=['full'] | recode=[] | evidence: not a grounding model; captioners trained with CE/SC/GAN losses
+- **zhang2025enhancing** F_supervision: db=['rl verifiable reward'] | recode=['full', 'rl verifiable reward'] | evidence: rule-based click-in-box reward plus Brier confidence reward from GT boxes
+- **zhang2026seqalign3dvg** F_supervision: db=['full'] | recode=['full', 'synthetic/llm-generated'] | evidence: Qwen3-VL drafted descriptions, human-verified/rewritten; 3D box labels
+- **lu2026segcompass** F_supervision: db=['full'] | recode=['full', 'rl verifiable reward'] | evidence: mask supervision plus GRPO rewards from matched mask IoU and format
+- **liu2023polyformer** G_conditions: db=['nominal'] | recode=['domain/sensor shift'] | evidence: zero-shot Ref-DAVIS17 evaluation without video fine-tuning
+- **wang2024unires** G_conditions: db=['nominal'] | recode=['domain/sensor shift'] | evidence: zero-shot transfer from MRES-32M pre-training to RefCOCO/+/g
+- **zhang2024persam** G_conditions: db=['ambiguity/distractors'] | recode=['ambiguity/distractors', 'novel categories/compositions'] | evidence: one-shot unseen classes; PerSAM-F designed for mask-scale ambiguity
+- **kamath2021mdetr** G_conditions: db=['multi-target'] | recode=['novel categories/compositions'] | evidence: few-shot long-tailed LVIS rare categories; unseen attribute combinations
+- **yuan2024osprey** G_conditions: db=['absent target/false premise'] | recode=['absent target/false premise', 'novel categories/compositions'] | evidence: POPE hallucination with negative mining; open-vocabulary region recognition
+- **wang2025segllm** G_conditions: db=['long-horizon drift'] | recode=['domain/sensor shift', 'long-horizon drift'] | evidence: performance tracked over 8 conversation rounds; unseen question templates
+- **yuan2026sa2va** G_conditions: db=['nominal'] | recode=['domain/sensor shift'] | evidence: zero-shot Ref-SAV (occlusion, long text, camera motion) evaluation
+- **seo2020urvos** G_conditions: db=['long-horizon drift'] | recode=['domain/sensor shift', 'long-horizon drift'] | evidence: Refer-DAVIS17 without fine-tuning; inference designed against drift and occlusion
+- **bai2024one** G_conditions: db=['nominal'] | recode=['domain/sensor shift'] | evidence: ReasonVOS built for zero-shot evaluation of all models
+- **gao2017tall** G_conditions: db=['nominal'] | recode=['novel categories/compositions'] | evidence: test-only complex multi-sentence query set on Charades-STA
+- **mo2022ezvsl** G_conditions: db=['novel categories/compositions'] | recode=['domain/sensor shift', 'novel categories/compositions'] | evidence: open-set heard/unheard 110 classes; cross-dataset Flickr<->VGG-SS tests
+- **du2025crab** G_conditions: db=['absent target/false premise'] | recode=['absent target/false premise', 'multi-target', 'novel categories/compositions'] | evidence: Ref-AVS Seen/Unseen/Null splits; MS3 multi-source subset
+- **sun2023learning** G_conditions: db=['novel categories/compositions'] | recode=['domain/sensor shift', 'multi-target', 'novel categories/compositions'] | evidence: Unheard 110 open set; cross-dataset; zero-shot AVSBench S4/MS3
+- **arandjelovic2018objects** G_conditions: db=['nominal'] | recode=['conflicting modalities'] | evidence: mismatched frame-audio pairs probe whether map follows sound (qualitative)
+- **tian2018ave** G_conditions: db=['missing modality'] | recode=['nominal'] | evidence: no robustness protocol; unimodal ablations only
+- **rohrbach2018chair** G_conditions: db=['absent target/false premise'] | recode=['absent target/false premise', 'novel categories/compositions'] | evidence: hallucinated absent objects; Robust compositional and Novel Object splits
+- **cirik2018visual** G_conditions: db=['ambiguity/distractors'] | recode=['degraded/noisy modality', 'missing modality'] | evidence: image-only (no expression) model; shuffled words and discarded word categories
+- **zhang2026seqalign3dvg** G_conditions: db=['ambiguity/distractors', 'missing modality'] | recode=['ambiguity/distractors'] | evidence: Easy/Medium/Hard splits by number of same-class distractors
+- **lu2026segcompass** G_conditions: db=['nominal'] | recode=['domain/sensor shift', 'multi-target'] | evidence: gRefCOCO multi-object; zero-shot ReasonSeg without its images
+- **seo2020urvos** H_verification: db=['temporal/cross-view consistency'] | recode=['none'] | evidence: anchor frame by mean mask score; plain confidence, no check
+- **jin2022embracing** H_verification: db=['temporal/cross-view consistency'] | recode=['none'] | evidence: template enforces consistency in prediction, not a post-hoc check
+- **arandjelovic2018objects** H_verification: db=['none'] | recode=['existence/abstention head'] | evidence: max-pooled score outputs corresponds yes/no; empty map for mismatched audio
+- **kerr2023lerf** H_verification: db=['none'] | recode=['existence/abstention head'] | evidence: existence returned if any point exceeds relevancy threshold
+- **guo2023viewrefer** H_verification: db=['temporal/cross-view consistency'] | recode=['none'] | evidence: view-guided scoring weights views, no output check
+- **zhang2025enhancing** H_verification: db=['calibrated confidence', 'existence/abstention head'] | recode=['calibrated confidence'] | evidence: verbalised confidence calibrated via truncated-Gaussian Brier reward; AP@conf
+- **deruyttere2021giving** H_verification: db=['interactive clarification'] | recode=['calibrated confidence', 'interactive clarification'] | evidence: ensembles/temperature scaling detect uncertainty; system asks passenger to disambiguate
+- **zhang2026seqalign3dvg** H_verification: db=['none'] | recode=['temporal/cross-view consistency'] | evidence: consensus prior across views restricts memory writes

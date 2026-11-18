@@ -1,0 +1,9 @@
+facet,n_works,observed_agreement,cohen_kappa,mean_jaccard_or_exact
+A_query,40,0.956,0.823,0.856
+B_target,40,0.970,0.853,0.850
+C_referent,40,0.956,0.856,0.865
+D_output,40,0.967,0.867,0.865
+E_paradigm,40,0.650,0.602,0.650
+F_supervision,40,0.950,0.837,0.829
+G_conditions,40,0.925,0.649,0.629
+H_verification,40,0.961,0.811,0.825

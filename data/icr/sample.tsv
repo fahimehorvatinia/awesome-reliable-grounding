@@ -1,0 +1,41 @@
+key	title	venue	year	url
+ding2026grex	GREx: Generalized Referring Expression Segmentation, Comprehension, and Generation	IJCV 2026 (vol. 134, issue 2)	2026	https://arxiv.org/abs/2601.05244
+liu2023polyformer	PolyFormer: Referring Image Segmentation as Sequential Polygon Generation	CVPR 2023	2023	https://arxiv.org/abs/2302.07387
+wang2024unires	Unveiling Parts Beyond Objects: Towards Finer-Granularity Referring Expression Segmentation	CVPR 2024	2024	https://arxiv.org/abs/2312.08007
+zhang2024persam	Personalize Segment Anything Model with One Shot	ICLR 2024	2024	https://proceedings.iclr.cc/paper_files/paper/2024/hash/4f44e5c82dc7b0ba4472083e5dedb08e-Abstract-Conference.html
+ding2021vlt	Vision-Language Transformer and Query Generation for Referring Segmentation	ICCV 2021	2021	https://arxiv.org/abs/2108.05565
+kamath2021mdetr	MDETR - Modulated Detection for End-to-End Multi-Modal Understanding	ICCV 2021	2021	https://arxiv.org/abs/2104.12763
+zhang2024groundhog	GROUNDHOG: Grounding Large Language Models to Holistic Segmentation	CVPR 2024	2024	https://openaccess.thecvf.com/content/CVPR2024/html/Zhang_GROUNDHOG_Grounding_Large_Language_Models_to_Holistic_Segmentation_CVPR_2024_paper.html
+zhang2024omgllava	OMG-LLaVA: Bridging Image-level, Object-level, Pixel-level Reasoning and Understanding	NeurIPS 2024	2024	https://proceedings.neurips.cc/paper_files/paper/2024/hash/83eb86be3e2f9fd66c44d9073c51ba4d-Abstract-Conference.html
+yuan2024osprey	Osprey: Pixel Understanding with Visual Instruction Tuning	CVPR 2024	2024	https://openaccess.thecvf.com/content/CVPR2024/html/Yuan_Osprey_Pixel_Understanding_with_Visual_Instruction_Tuning_CVPR_2024_paper.html
+wang2025segllm	SegLLM: Multi-round Reasoning Segmentation with Large Language Models	ICLR 2025	2025	https://proceedings.iclr.cc/paper_files/paper/2025/hash/8e125fb53198f2143716d969584d0a28-Abstract-Conference.html
+yuan2026sa2va	Sa2VA: Marrying SAM2 with MLLM for Dense Grounded Understanding of Images and Videos	IEEE TPAMI 2026	2026	https://arxiv.org/abs/2501.04001
+zhu2025popen	POPEN: Preference-Based Optimization and Ensemble for LVLM-Based Reasoning Segmentation	CVPR 2025	2025	https://openaccess.thecvf.com/content/CVPR2025/html/Zhu_POPEN_Preference-Based_Optimization_and_Ensemble_for_LVLM-Based_Reasoning_Segmentation_CVPR_2025_paper.html
+wang2022negative	Negative Sample Matters: A Renaissance of Metric Learning for Temporal Grounding	AAAI 2022	2022	https://arxiv.org/abs/2109.04872
+yang2022tubedetr	TubeDETR: Spatio-Temporal Video Grounding with Transformers	CVPR 2022	2022	https://openaccess.thecvf.com/content/CVPR2022/html/Yang_TubeDETR_Spatio-Temporal_Video_Grounding_With_Transformers_CVPR_2022_paper.html
+seo2020urvos	URVOS: Unified Referring Video Object Segmentation Network with a Large-Scale Benchmark	ECCV 2020	2020	https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/2934_ECCV_2020_paper.php
+jin2022embracing	Embracing Consistency: A One-Stage Approach for Spatio-Temporal Video Grounding	NeurIPS 2022	2022	https://papers.nips.cc/paper_files/paper/2022/hash/bc18c538d983cea434f9281148d43e1e-Abstract-Conference.html
+bai2024one	One Token to Seg Them All: Language Instructed Reasoning Segmentation in Videos	NeurIPS 2024	2024	https://proceedings.neurips.cc/paper_files/paper/2024/hash/0cf3e7eefb9d643e93e16ff1d94090a7-Abstract-Conference.html
+gao2017tall	TALL: Temporal Activity Localization via Language Query	ICCV 2017	2017	https://arxiv.org/abs/1705.02101
+gao2024avsegformer	AVSegFormer: Audio-Visual Segmentation with Transformer	AAAI 2024	2024	https://arxiv.org/abs/2307.01146
+mo2022ezvsl	Localizing Visual Sounds the Easy Way	ECCV 2022	2022	https://arxiv.org/abs/2203.09324
+du2025crab	Crab: A Unified Audio-Visual Scene Understanding Model with Explicit Cooperation	CVPR 2025	2025	https://arxiv.org/abs/2503.13068
+sun2023learning	Learning Audio-Visual Source Localization via False Negative Aware Contrastive Learning	CVPR 2023	2023	https://arxiv.org/abs/2303.11302
+arandjelovic2018objects	Objects that Sound	ECCV 2018	2018	https://arxiv.org/abs/1712.06651
+tian2018ave	Audio-Visual Event Localization in Unconstrained Videos	ECCV 2018	2018	https://arxiv.org/abs/1803.08842
+zhang2026medgrounder	Generalized Medical Phrase Grounding	IEEE TMI 2026	2026	https://arxiv.org/abs/2512.01085
+kerr2023lerf	LERF: Language Embedded Radiance Fields	ICCV 2023	2023	https://arxiv.org/abs/2303.09553
+guo2023viewrefer	ViewRefer: Grasp the Multi-view Knowledge for 3D Visual Grounding	ICCV 2023	2023	https://arxiv.org/abs/2303.16894
+liu2024rotated	Rotated Multi-Scale Interaction Network for Referring Remote Sensing Image Segmentation	CVPR 2024	2024	https://arxiv.org/abs/2312.12470
+huang2022multiview	Multi-View Transformer for 3D Visual Grounding	CVPR 2022	2022	https://openaccess.thecvf.com/content/CVPR2022/html/Huang_Multi-View_Transformer_for_3D_Visual_Grounding_CVPR_2022_paper.html
+li2024lpva	Language-Guided Progressive Attention for Visual Grounding in Remote Sensing Images	IEEE TGRS 2024	2024	https://ieeexplore.ieee.org/document/10584552
+park2026retrieval	Retrieval Heads Meet Vision: Uncovering How VLMs Locate and Extract Visual Information	arXiv	2026	https://arxiv.org/abs/2608.27417
+rohrbach2018chair	Object Hallucination in Image Captioning	EMNLP 2018	2018	https://aclanthology.org/D18-1437/
+zhang2025enhancing	Enhancing Trustworthy GUI Grounding via Self-Critiqued Reinforcement Learning	arXiv	2025	https://arxiv.org/abs/2510.27266
+cirik2018visual	Visual Referring Expression Recognition: What Do Systems Actually Learn?	NAACL-HLT 2018 (short)	2018	https://aclanthology.org/N18-2123/
+padhi2025calibrating	Calibrating Uncertainty Quantification of Multi-Modal LLMs using Grounding	arXiv	2025	https://arxiv.org/abs/2505.03788
+deruyttere2021giving	Giving Commands to a Self-Driving Car: How to Deal with Uncertain Situations?	Engineering Applications of Artificial Intelligence 2021	2021	https://doi.org/10.1016/j.engappai.2021.104257
+zhou2022thinking	Thinking Inside Uncertainty: Interest Moment Perception for Diverse Temporal Grounding	IEEE TCSVT 2022	2022	https://doi.org/10.1109/tcsvt.2022.3179314
+zhang2026seqalign3dvg	SeqAlign3DVG: A Sequence-Aligned Benchmark and Voxel Reasoning Framework for 3D Visual Grounding	arXiv	2026	https://arxiv.org/abs/2608.30451
+lu2026segcompass	SegCompass: Exploring Interpretable Alignment with Sparse Autoencoders for Enhanced Reasoning Segmentation	CVPR 2026	2026	https://openaccess.thecvf.com/content/CVPR2026/html/Lu_SegCompass_Exploring_Interpretable_Alignment_with_Sparse_Autoencoders_for_Enhanced_Reasoning_CVPR_2026_paper.html
+lu2025geal	GEAL: Generalizable 3D Affordance Learning with Cross-Modal Consistency	CVPR 2025	2025	https://openaccess.thecvf.com/content/CVPR2025/html/Lu_GEAL_Generalizable_3D_Affordance_Learning_with_Cross-Modal_Consistency_CVPR_2025_paper.html

@@ -1,0 +1,10 @@
+facet,coder 1 kept,coder 2 adopted,merged / other,work excluded,total
+A_query,3,6,2,0,11
+B_target,4,5,0,0,9
+C_referent,5,5,1,1,12
+D_output,2,7,1,1,11
+E_paradigm,9,4,0,1,14
+F_supervision,2,9,1,0,12
+G_conditions,1,14,3,1,19
+H_verification,2,6,0,0,8
+all,28,56,8,4,96

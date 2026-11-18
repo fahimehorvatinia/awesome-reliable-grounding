@@ -1,0 +1,75 @@
+facet,value,count
+A_query,"referring expression",249
+A_query,"implicit instruction",92
+A_query,"phrase/class name",53
+A_query,"non-speech sound",46
+A_query,"visual prompt",18
+A_query,"visual exemplar",11
+A_query,"composite",11
+A_query,"speech",10
+A_query,"gesture/gaze",1
+B_target,"image",185
+B_target,"silent video",92
+B_target,"audio-visual video",53
+B_target,"point cloud",39
+B_target,"rgb-d",16
+B_target,"remote sensing",9
+B_target,"audio-only",6
+B_target,"radiance field/3dgs",6
+B_target,"medical",6
+B_target,"lidar/radar/thermal",4
+C_referent,"object instance",243
+C_referent,"set (0..k)",76
+C_referent,"event/action",71
+C_referent,"sound source",49
+C_referent,"stuff/region",34
+C_referent,"part",15
+C_referent,"relation/interaction",11
+C_referent,"affordance",3
+D_output,"mask",112
+D_output,"2d box",108
+D_output,"grounded text",84
+D_output,"temporal interval",69
+D_output,"point/heatmap",45
+D_output,"3d box",41
+D_output,"tube/track",19
+D_output,"3d mask",11
+D_output,"rotated box",2
+E_paradigm,"e2",61
+E_paradigm,"e3",53
+E_paradigm,"analysis",45
+E_paradigm,"dataset",44
+E_paradigm,"e6",32
+E_paradigm,"e1",29
+E_paradigm,"e4",29
+E_paradigm,"e7",25
+E_paradigm,"e9",22
+E_paradigm,"e8",22
+E_paradigm,"e5",11
+F_supervision,"full",268
+F_supervision,"synthetic/llm-generated",73
+F_supervision,"zero-shot/training-free",58
+F_supervision,"weak",24
+F_supervision,"self-supervised correspondence",24
+F_supervision,"rl verifiable reward",17
+F_supervision,"semi-supervised",7
+G_conditions,"nominal",122
+G_conditions,"ambiguity/distractors",81
+G_conditions,"multi-target",78
+G_conditions,"absent target/false premise",67
+G_conditions,"novel categories/compositions",49
+G_conditions,"domain/sensor shift",35
+G_conditions,"missing modality",28
+G_conditions,"degraded/noisy modality",20
+G_conditions,"conflicting modalities",16
+G_conditions,"long-horizon drift",12
+G_conditions,"adversarial",11
+H_verification,"none",280
+H_verification,"existence/abstention head",30
+H_verification,"traceable evidence",30
+H_verification,"calibrated confidence",21
+H_verification,"self-verification/re-grounding",10
+H_verification,"cycle/reg consistency",8
+H_verification,"interactive clarification",7
+H_verification,"temporal/cross-view consistency",6
+H_verification,"external verifier",5

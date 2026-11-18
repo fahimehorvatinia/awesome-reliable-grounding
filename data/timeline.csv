@@ -1,0 +1,62 @@
+lane,year,kind,label,bibkey
+image,2014,d,ReferItGame,kazemzadeh2014referitgame
+image,2015,d,Flickr30k Entities,plummer2017flickr30k
+image,2016,d,RefCOCO/+/g,yu2016modeling
+image,2016,m,RES (Hu et al.),hu2016segmentation
+image,2018,m,MAttNet,yu2018mattnet
+image,2021,m,MDETR,kamath2021mdetr
+image,2022,m,GLIP,li2022glip
+image,2023,m,SAM,kirillov2023sam
+image,2023,d,gRefCOCO,liu2023gres
+image,2023,d,D3,xie2023described
+image,2024,m,Grounding DINO,liu2024groundingdino
+image,2024,m,LISA,lai2024lisa
+image,2024,m,GSVA [REJ],xia2024gsva
+image,2026,m,SAM 3,carion2026sam3
+video,2017,d,Charades-STA,gao2017tall
+video,2017,d,DiDeMo,hendricks2017didemo
+video,2018,d,A2D Sentences,gavrilyuk2018actor
+video,2020,d,VidSTG,zhang2020vidstg
+video,2020,d,Refer-YouTube-VOS,seo2020urvos
+video,2021,d,QVHighlights,lei2021detecting
+video,2022,m,ReferFormer,wu2022referformer
+video,2022,m,TubeDETR,yang2022tubedetr
+video,2023,d,MeViS,ding2023mevis
+video,2023,d,Refer-KITTI,wu2023rmot
+video,2024,m,TimeChat,ren2024timechat
+video,2025,m,Time-R1,wang2025timer1
+av,2018,m,Objects that Sound,arandjelovic2018objects
+av,2018,m,Sound of Pixels,zhao2018sound
+av,2018,d,AVE,tian2018ave
+av,2021,d,VGG-SS,chen2021localizing
+av,2022,d,AVSBench,zhou2022avs
+av,2024,d,Ref-AVS,wang2024refavs
+av,2024,m,Meerkat,chowdhury2024meerkat
+av,2025,d,OmniAVS,ying2025omniavs
+3d,2019,d,Talk2Car,deruyttere2019talk2car
+3d,2020,d,ScanRefer,chen2020scanrefer
+3d,2020,d,Nr3D/Sr3D,achlioptas2020referit3d
+3d,2022,m,BUTD-DETR,jain2022butd
+3d,2023,m,LERF,kerr2023lerf
+3d,2023,d,Multi3DRefer,zhang2023multi3drefer
+3d,2024,d,Mono3DRefer,zhan2024mono3dvg
+3d,2025,m,ReferSplat,he2025refersplat
+3d,2025,m,SeeGround,li2025seeground
+3d,2025,d,Talk2Radar,guan2025talk2radar
+3d,2026,d,RGBT-GroundBench,zhao2026rgbtgroundbench
+rel,2018,r,blind baselines (REC),cirik2018visual
+rel,2020,r,moment-retrieval bias,otani2020uncovering
+rel,2020,r,Ref-Adv,akula2020words
+rel,2021,r,bi-modal relevance maps,chefer2021generic
+rel,2021,r,cross-modal ablation,frank2021vision
+rel,2022,r,SLAVC negatives,mo2022closer
+rel,2023,r,POPE,li2023pope
+rel,2024,r,R2-Bench,li2024r2bench
+rel,2024,r,SESAME false premise,wu2024sesame
+rel,2025,r,NA-VMR,flanagan2025moment
+rel,2025,r,Ref-L4 label noise,chen2025refl4
+rel,2025,r,AV conflict study,jia2025seeing
+rel,2025,r,localisation heads,kang2025localizationheads
+rel,2026,r,AVSBench-Robust,li2026avsbenchrobust
+rel,2026,r,VIRO verifiers,park2026viro
+rel,2026,r,TreeBench,wang2026treebench
