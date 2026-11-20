@@ -56,7 +56,7 @@ rel,2024,r,SESAME false premise,wu2024sesame
 rel,2025,r,NA-VMR,flanagan2025moment
 rel,2025,r,Ref-L4 label noise,chen2025refl4
 rel,2025,r,AV conflict study,jia2025seeing
-rel,2025,r,localisation heads,kang2025localizationheads
+rel,2025,r,localization heads,kang2025localizationheads
 rel,2026,r,AVSBench-Robust,li2026avsbenchrobust
 rel,2026,r,VIRO verifiers,park2026viro
 rel,2026,r,TreeBench,wang2026treebench

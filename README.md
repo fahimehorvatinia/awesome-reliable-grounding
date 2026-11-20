@@ -20,7 +20,7 @@ Companion repository of the survey *Reliable Multimodal Grounding: A Survey* (F.
 | 📖 Surveys | **41** |
 | 💻 Works with verified code links | **202** |
 | 📊 Benchmark values (with source table) | **1,109** |
-| 🔍 Method papers without any output verification | **213 of 284** |
+| 🔍 Method papers with no coded verification or evidence-support mechanism (facet H) | **213 of 284** |
 | ✅ Every entry | checked against the publisher, the official proceedings page or arXiv |
 
 ## 🗂️ Contents
@@ -1057,7 +1057,7 @@ How many works evaluate or address each condition (one paper can appear under se
 
 ## ✔️ Verification mechanisms
 
-Mechanisms by which a model checks or qualifies its own output. **213 of 284 method papers have none.**
+Mechanisms coded in facet H: output checks (existence or abstention heads, self-verification, external verifiers, consistency checks), uncertainty estimates, traceable evidence and interactive clarification. **213 of 284 method papers have no coded facet-H mechanism.** This is not a count of papers without output verification: facet H also covers evidence exposure and uncertainty estimation, and a non-empty code does not by itself establish that an output is checked (16 of the remaining 71 have only the traceable-evidence label). Codes are AI-assisted; see the survey for the coding audit.
 
 | Mechanism | Works |
 |---|:---:|
@@ -1353,9 +1353,8 @@ Evaluation benchmarks with a localisation output and the reliability conditions 
 | [Omni Survey for Multimodality Analysis in Visual Object Tracking](https://arxiv.org/abs/2508.13000) | arXiv | 2026 |
 | [Multimodal Alignment and Fusion: A Survey](https://doi.org/10.1007/s11263-025-02667-1) | International Journal of Computer Vision | 2026 |
 | [Multimodal fusion on low-quality data: A comprehensive survey](https://doi.org/10.1016/j.inffus.2026.104437) | Information Fusion | 2026 |
-| [Deep Multimodal Learning with Missing Modality: A Survey](https://arxiv.org/abs/2409.07825) | arXiv | 2026 |
+| [Deep Multimodal Learning with Missing Modality: A Survey](https://openreview.net/forum?id=tc7RFcx4hT) | Transactions on Machine Learning Research | 2026 |
 | [Uncertainty-Aware Decision Making in Multimodal Large Language Models](https://arxiv.org/abs/2608.17084) | arXiv | 2026 |
-| [Reliable and Responsible Foundation Models: A Comprehensive Survey](https://arxiv.org/abs/2602.08145) | arXiv | 2026 |
 | [Distorted or Fabricated? A Survey on Hallucination in Video LLMs](https://doi.org/10.18653/v1/2026.findings-acl.1325) | Findings of the Association for Computational Linguistics: ACL 2026 | 2026 |
 | [Revealing the Seen, Imagining the Beyond: A Survey of Image-Grounded Chain-of-Thought Reasoning in Multimodal LLMs](https://doi.org/10.18653/v1/2026.acl-long.2087) | Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) | 2026 |
 | [Towards Understanding Visual Grounding in Visual Language Models](https://arxiv.org/abs/2509.10345) | arXiv | 2025 |
@@ -1365,6 +1364,7 @@ Evaluation benchmarks with a localisation output and the reliability conditions 
 | [A Review of Visual Grounding on Remote Sensing Images](https://doi.org/10.3390/electronics14142815) | Electronics | 2025 |
 | [Hallucination of Multimodal Large Language Models: A Survey](https://arxiv.org/abs/2404.18930) | arXiv | 2025 |
 | [A Survey on Mechanistic Interpretability for Multi-Modal Foundation Models](https://arxiv.org/abs/2502.17516) | arXiv | 2025 |
+| [Reliable and Responsible Foundation Models](https://openreview.net/forum?id=nLJZh4M6S5) | Transactions on Machine Learning Research | 2025 |
 | [Multimodal Chain-of-Thought Reasoning: A Comprehensive Survey](https://arxiv.org/abs/2503.12605) | arXiv | 2025 |
 | [Thinking with Images for Multimodal Reasoning: Foundations, Methods, and Future Frontiers](https://arxiv.org/abs/2506.23918) | arXiv | 2025 |
 | [A survey of methods for addressing the challenges of referring image segmentation](https://doi.org/10.1016/j.neucom.2024.127599) | Neurocomputing | 2024 |

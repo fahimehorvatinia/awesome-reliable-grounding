@@ -63,7 +63,7 @@ COLS = [  # (group, colour, [(label, test)])
         ("interval", lambda r: "temporal interval" in r["D"]),
         ("tube/track", lambda r: "tube/track" in r["D"]),
         ("3D region", lambda r: bool({"3d box", "3d mask"} & r["D"]))]),
-    ("Condition tested", "cRel", [
+    ("Condition coded", "cRel", [
         ("absent target", lambda r: "absent target/false premise" in r["G"]),
         ("multi-target", lambda r: "multi-target" in r["G"]),
         ("ambiguity", lambda r: "ambiguity/distractors" in r["G"]),

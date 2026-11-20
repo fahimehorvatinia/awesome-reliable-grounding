@@ -47,7 +47,7 @@ FACETS = [  # (field, letter, title, colour, [(value as coded, display label)])
         ("adversarial", "adversarial")]),
     ("H_verification", "H", "Verification mechanism", "cRel", [
         ("none", "none"), ("existence/abstention head", "existence / abstention head"),
-        ("traceable evidence", "traceable evidence"), ("calibrated confidence", "calibrated confidence"),
+        ("traceable evidence", "traceable evidence"), ("calibrated confidence", "confidence / uncertainty"),
         ("self-verification/re-grounding", "self-verification, re-grounding"),
         ("temporal/cross-view consistency", "temporal / cross-view consist."), ("cycle/reg consistency", "cycle / REG consistency"),
         ("interactive clarification", "interactive clarification"), ("external verifier", "external verifier")]),
